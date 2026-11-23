@@ -25,6 +25,18 @@
             font-size: 16px;
             margin-top: 15px;
         }
+
+        #gallery-section {
+            margin-top: 25px;
+        }
+
+        #gallery-image {
+            display: block;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -34,6 +46,17 @@
 
     <!-- Week 11: Dark Mode Toggle Button -->
     <button id="theme-toggle">🌙 Toggle Dark Mode</button>
+
+    <!-- Week 12 Step 1: Hobby/Skill List Container -->
+    <h2>My Hobbies & Skills</h2>
+    <div id="hobby-list"></div>
+
+    <!-- Week 12 Step 2: Hobby Gallery (Extension) -->
+    <div id="gallery-section">
+        <h2>Hobby Gallery</h2>
+        <img id="gallery-image" src="https://picsum.photos/id/1018/300/200" alt="Hobby Gallery Photo">
+        <button id="next-photo-btn">Next Photo</button>
+    </div>
 
     <!-- Link your JavaScript file -->
     <script src="script.js"></script>
